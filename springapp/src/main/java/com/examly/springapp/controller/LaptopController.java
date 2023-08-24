@@ -28,7 +28,7 @@ public class LaptopController {
         return apiService.getLaptopById(laptopId);
     }
 
-    @GetMapping("/URL")
+    @GetMapping("/getallbyIdURL")
     public List<Laptop> getAllLaptops() {
         return apiService.getAllLaptops();
     }
